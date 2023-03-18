@@ -1,0 +1,88 @@
+@charset "UTF-8";
+html {
+	font-size:100%;
+}
+body {
+	background-color:#D2B48C;
+}
+header {
+height: 80px;
+width: 100%;
+position: fixed;
+left: 0;
+top: 0;
+background-color: white;
+text-align: center;
+}
+.main-nav {
+	display: flex;
+	font-size: 0.5rem;
+	text-transform: uppercase;
+	margin-top: 20px;
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+	background-color: #000066
+;
+}
+.main-nav li {
+	color: white;
+	margin-left: 36px;
+}
+.main {
+	margin-top: 140px;
+	text-align: center;
+}
+footer {
+background-color: #EFEFEF;
+clear: both;
+padding-top: 20px;
+}
+footer .adress {
+font-size: 16px;
+margin-bottom: 2em;
+width: 100%;
+}
+footer .adress span,
+footer .adress th{
+font-size: 24px;
+color: #0078C8;
+margin-right: 0em;
+display: block;
+padding-bottom: 10px;
+}
+footer .adress th,footer .adress td{
+display: block
+}
+footer .mcl_list_ttl img{
+width: 290px;
+height: auto;
+margin-bottom: 1em
+}
+footer ul.privacy {
+float: none;
+padding-bottom: 20px;
+}
+.copyright{
+background-color: #0078C8;
+color: #FFF;
+text-align: center;
+padding-top: 30px;
+padding-bottom: 30px;
+font-size: 12px;
+}
+
+/*フォーム*/
+.label-required{
+  color: red;
+  font-size: 18px;
+}
+button{
+  background: #ff6347;
+  border-radius: 7px;
+  cursor: pointer;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 10px 25px;
+}
